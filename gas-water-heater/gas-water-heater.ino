@@ -69,6 +69,7 @@ void loop() {
         digitalWrite(relayPin, HIGH); // Relay OFF
         relayOn = false;
         Serial.println("Flow stopped — relay OFF. Going to sleep...");
+        Serial.flush();
       } else {
         Serial.println("Flow too low — staying asleep.");
       }
