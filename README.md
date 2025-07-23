@@ -1,5 +1,3 @@
-## ✅ What You’ve Implemented:
-
 ### 🧠 Core Logic:
 
 - Water flow is detected → `relayClosed = true` → contact is closed (`RELAY_FLOW_CONTACTS_PIN = LOW`)
